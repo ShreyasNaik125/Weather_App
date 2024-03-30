@@ -1,0 +1,58 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.date{
+    background: #000;
+    padding: 10px 15px;
+    border-radius: 2rem;
+    border: 0;
+    width: 120px;
+    text-align: center;
+}
+
+.Logo{
+    padding: 15px 40px;
+}
+
+ul{
+    float: right;
+    margin-top: -90px;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+.card{
+    background: #303030;
+    text-align: center;
+    padding: 60px 0px;
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    border-radius: 2rem;
+}
+
+.card img{
+    border-radius: 50%;
+}
